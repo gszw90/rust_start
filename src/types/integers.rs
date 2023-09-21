@@ -58,4 +58,3 @@ pub fn numbers() {
         println!("char => {i}");
     }
 }
-

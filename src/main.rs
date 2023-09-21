@@ -1,6 +1,6 @@
-mod types;
-mod scope;
 mod complex_type;
+mod scope;
+mod types;
 
 fn main() {
     // println!("Hello, world!");

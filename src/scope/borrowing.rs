@@ -32,11 +32,11 @@ pub fn refer2() {
     let mut s = String::from("Juicy");
     let s2 = &s;
     let s3 = &s;
-    println!("s2={},s3={}", *s2, *s3);//rust 1.31后 s2,s3的作用域在这里结束
+    println!("s2={},s3={}", *s2, *s3); //rust 1.31后 s2,s3的作用域在这里结束
 
     let s4 = &mut s;
     println!("s4 eq {}", *s4);
-}// rust 1.31前s2,s3,s4的作用域在这里结束,以后只有s4的作用域在这里结束
+} // rust 1.31前s2,s3,s4的作用域在这里结束,以后只有s4的作用域在这里结束
 
 fn cal_length(s: &String) -> usize {
     // 允许使用s的值,但是没有获取到所有权,也不可以修改s的值

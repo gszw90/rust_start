@@ -4,21 +4,20 @@ pub fn str1() {
     let s1: &str = "hello";
     let s2: String = String::from("world");
     // &str 转化为 String
-    let s11:String = String::from("to String");
-    let s12:String = "to String".to_string();
+    let s11: String = String::from("to String");
+    let s12: String = "to String".to_string();
     // String 转化为&str只需要取引用即可
-    let s21:&str = &s11;
-    let s22:&str = &s11[..];
-    let s23:&str = s11.as_str();
+    let s21: &str = &s11;
+    let s22: &str = &s11[..];
+    let s23: &str = s11.as_str();
 
     // 字符串中不能通过索引直接获取字符,因为每个字符是utf8格式,所占空间为(1-4),不能确定字符边界
 
     // 追加字符,必须是可变类型
     let mut s = String::from("hello");
-    println!("before push:{}",s);
+    println!("before push:{}", s);
     s.push_str(" rust");
-    println!("after push:{}",s);
-
+    println!("after push:{}", s);
 }
 
 pub fn slice_type() {
