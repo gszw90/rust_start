@@ -14,7 +14,9 @@ fn main() {
     //scope::borrowing::refer();
     //scope::borrowing::refer2();
 
-    complex_type::string_type::str1();
+    //complex_type::string_type::str1();
+    //complex_type::string_type::concatenate();
+    complex_type::string_type::handle();
 
     //scope::scope_fix::fix1();
     //scope::scope_fix::fix2();
