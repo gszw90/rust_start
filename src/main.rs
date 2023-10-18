@@ -16,7 +16,7 @@ fn main() {
 
     //complex_type::string_type::str1();
     //complex_type::string_type::concatenate();
-    complex_type::string_type::handle();
+    //complex_type::string_type::handle();
 
     //scope::scope_fix::fix1();
     //scope::scope_fix::fix2();
@@ -29,4 +29,13 @@ fn main() {
     //scope::borrowing_fix::fix1();
     //scope::borrowing_fix::fix2();
     //scope::borrowing_fix::fix3();
+
+    //complex_type::string_type_fix::fix3();
+    //complex_type::string_type_fix::fix4();
+    //complex_type::string_type_fix::fix5();
+    //complex_type::string_type_fix::fix6();
+    //complex_type::string_type_fix::fix7();
+    //complex_type::string_type_fix::fix8();
+    //complex_type::string_type_fix::fix9();
+    complex_type::string_type_fix::fix10();
 }
