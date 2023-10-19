@@ -37,5 +37,20 @@ fn main() {
     //complex_type::string_type_fix::fix7();
     //complex_type::string_type_fix::fix8();
     //complex_type::string_type_fix::fix9();
-    complex_type::string_type_fix::fix10();
+    //complex_type::string_type_fix::fix10();
+    //complex_type::string_type_fix::fix11();
+    //complex_type::string_type_fix::fix12();
+
+    //complex_type::string2_type_fix::fix1();
+    //complex_type::string2_type_fix::fix2();
+    //complex_type::string2_type_fix::fix4();
+    // complex_type::string2_type_fix::fix5();
+    complex_type::string2_type_fix::fix6();
+
+    //complex_type::slice_type_fix::fix1();
+    //complex_type::slice_type_fix::fix2();
+    //complex_type::slice_type_fix::fix3();
+    //complex_type::slice_type_fix::fix4();
+    //complex_type::slice_type_fix::fix5();
+    //complex_type::slice_type_fix::fix6();
 }
