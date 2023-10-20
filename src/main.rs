@@ -18,6 +18,8 @@ fn main() {
     //complex_type::string_type::concatenate();
     //complex_type::string_type::handle();
 
+    // complex_type::tupple_type::eg1();
+
     //scope::scope_fix::fix1();
     //scope::scope_fix::fix2();
     //scope::scope_fix::fix3();
@@ -45,7 +47,7 @@ fn main() {
     //complex_type::string2_type_fix::fix2();
     //complex_type::string2_type_fix::fix4();
     // complex_type::string2_type_fix::fix5();
-    complex_type::string2_type_fix::fix6();
+    // complex_type::string2_type_fix::fix6();
 
     //complex_type::slice_type_fix::fix1();
     //complex_type::slice_type_fix::fix2();
@@ -53,4 +55,8 @@ fn main() {
     //complex_type::slice_type_fix::fix4();
     //complex_type::slice_type_fix::fix5();
     //complex_type::slice_type_fix::fix6();
+
+    // complex_type::tuple_type_fix::fix1();
+    // complex_type::tuple_type_fix::fix2();
+    complex_type::tuple_type_fix::fix3();
 }

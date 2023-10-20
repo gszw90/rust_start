@@ -6,4 +6,8 @@ pub fn eg1() {
     // 使用模式匹配结构元组
     let (x,y,z) = tup;
     println!("{},{},{}",x,y,z);
+    // 访问元组,下标从0开始
+    let first = tup.0;
+    let third = tup.2;
+    println!("{},{}",first,third);
 }
