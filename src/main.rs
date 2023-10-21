@@ -20,6 +20,8 @@ fn main() {
 
     // complex_type::tupple_type::eg1();
 
+    // complex_type::struct_type::eg1();
+
     //scope::scope_fix::fix1();
     //scope::scope_fix::fix2();
     //scope::scope_fix::fix3();
@@ -58,5 +60,12 @@ fn main() {
 
     // complex_type::tuple_type_fix::fix1();
     // complex_type::tuple_type_fix::fix2();
-    complex_type::tuple_type_fix::fix3();
+    // complex_type::tuple_type_fix::fix3();
+    // complex_type::tuple_type_fix::fix4();
+    // complex_type::tuple_type_fix::fix5();
+    // complex_type::tuple_type_fix::fix6();
+
+    // complex_type::struct_type_fix::fix1();
+    // complex_type::struct_type_fix::fix3();
+    complex_type::struct_type_fix::fix4();
 }

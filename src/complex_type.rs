@@ -3,5 +3,7 @@ pub mod slice_type_fix;
 pub mod string2_type_fix;
 pub mod string_type;
 pub mod string_type_fix;
+pub mod struct_type;
+pub mod struct_type_fix;
 pub mod tuple_type_fix;
 pub mod tupple_type;
