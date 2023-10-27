@@ -77,3 +77,85 @@ pub fn fix4() {
     // 填空
     p.name = String::from("sunfei");
 }
+
+// 使用结构体字段初始化缩略语法可以减少一些重复代码
+struct Person5 {
+    name: String,
+    age: u8,
+}
+pub fn fix5() {}
+
+fn build_person5(name: String, age: u8) -> Person5 {
+    // Person {
+    //     age,
+    //     __
+    // }
+    Person5 { age, name }
+}
+
+// 使用结构体更新语法基于一个结构体实例来构造另一个
+struct User6 {
+    active: bool,
+    username: String,
+    email: String,
+    sign_in_count: u64,
+}
+pub fn fix6() {
+    let u1 = User6 {
+        email: String::from("someone@example.com"),
+        username: String::from("sunface"),
+        active: true,
+        sign_in_count: 1,
+    };
+
+    let u2 = set_email6(u1);
+}
+
+fn set_email6(u: User6) -> User6 {
+    // User6 {
+    //     email: String::from("contact@im.dev"),
+    //     __,
+    // }
+    User6 {
+        email: String::from("contact@im.dev"),
+        ..u
+    }
+}
+
+// 使用 #[derive(Debug)] 让结构体变成可打印的
+//#[__]
+#[derive(Debug)]
+struct Rectangle7 {
+    width: u32,
+    height: u32,
+}
+pub fn fix7() {
+    let scale = 2;
+    let rect1 = Rectangle7 {
+        width: dbg!(30 * scale), // 打印 debug 信息到标准错误输出 stderr,并将 `30 * scale` 的值赋给 `width`
+        height: 50,
+    };
+
+    dbg!(&rect1); // 打印 debug 信息到标准错误输出 stderr
+
+    //println!(__, rect1); // 打印 debug 信息到标准输出 stdout
+    println!("{:?}", rect1);
+}
+
+#[derive(Debug)]
+struct File8 {
+    name: String,
+    data: String,
+}
+pub fn fix8() {
+    let f = File8 {
+        name: String::from("readme.md"),
+        data: "Rust By Practice".to_string(),
+    };
+
+    let _name = f.name;
+
+    // 只能修改这一行
+    // println!("{}, {}, {:?}",f.name, f.data, f);
+    println!("{}, {}", _name, f.data);
+}

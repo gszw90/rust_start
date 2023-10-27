@@ -67,5 +67,8 @@ fn main() {
 
     // complex_type::struct_type_fix::fix1();
     // complex_type::struct_type_fix::fix3();
-    complex_type::struct_type_fix::fix4();
+    // complex_type::struct_type_fix::fix4();
+    // complex_type::struct_type_fix::fix6();
+    // complex_type::struct_type_fix::fix7();
+    complex_type::struct_type_fix::fix8();
 }
