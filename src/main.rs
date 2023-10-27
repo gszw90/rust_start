@@ -21,6 +21,8 @@ fn main() {
     // complex_type::tupple_type::eg1();
 
     // complex_type::struct_type::eg1();
+    // complex_type::enum_type::eg1();
+    complex_type::enum_type::eg2();
 
     //scope::scope_fix::fix1();
     //scope::scope_fix::fix2();
@@ -70,5 +72,5 @@ fn main() {
     // complex_type::struct_type_fix::fix4();
     // complex_type::struct_type_fix::fix6();
     // complex_type::struct_type_fix::fix7();
-    complex_type::struct_type_fix::fix8();
+    // complex_type::struct_type_fix::fix8();
 }
