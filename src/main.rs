@@ -1,7 +1,5 @@
 mod complex_type;
 mod scope;
-mod types;
-
 fn main() {
     // println!("Hello, world!");
     // types::integers::MyInteger::show();
@@ -22,7 +20,12 @@ fn main() {
 
     // complex_type::struct_type::eg1();
     // complex_type::enum_type::eg1();
-    complex_type::enum_type::eg2();
+    // complex_type::enum_type::eg2();
+
+    // complex_type::array_type::eg1();
+
+    // process_control::if_process::eg1();
+    // process_control::if_process::eg2();
 
     //scope::scope_fix::fix1();
     //scope::scope_fix::fix2();
@@ -73,4 +76,33 @@ fn main() {
     // complex_type::struct_type_fix::fix6();
     // complex_type::struct_type_fix::fix7();
     // complex_type::struct_type_fix::fix8();
+
+    // complex_type::enum_type_fix::fix1();
+    // complex_type::enum_type_fix::fix2();
+    // complex_type::enum_type_fix::fix3();
+    // complex_type::enum_type_fix::fix4();
+    // complex_type::enum_type_fix::fix5();
+    // complex_type::enum_type_fix::fix6();
+
+    // complex_type::array_type_fix::fix1();
+    // complex_type::array_type_fix::fix2();
+    // complex_type::array_type_fix::fix3();
+    // complex_type::array_type_fix::fix4();
+    // complex_type::array_type_fix::fix5();
+    // complex_type::array_type_fix::fix6();
+
+    // process_control::if_process_fix::fix1();
+    // process_control::if_process_fix::fix2();
+    // process_control::if_process_fix::fix3();
+    // process_control::if_process_fix::fix4();
+    // process_control::if_process_fix::fix5();
+    // process_control::if_process_fix::fix6();
+    // process_control::if_process_fix::fix7();
+    // process_control::if_process_fix::fix8();
+    // process_control::if_process_fix::fix9();
+    // process_control::if_process_fix::fix10();
+    process_control::if_process_fix::fix11();
 }
+
+mod process_control;
+mod types;

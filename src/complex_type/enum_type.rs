@@ -40,4 +40,14 @@ pub fn eg2() {
     // 单独的None需要指定数据类型,否则编译器无法知道对应Some所对应的类型
     let some_none: Option<i32> = None;
     println!("{:?},{:?},{:?}", num, some_string, some_none);
+    // 使用match来匹配处理处理
+    plus_one(Some(9));
+    plus_one(None);
+}
+
+fn plus_one(x: Option<i32>) -> Option<i32> {
+    match x {
+        Some(i) => Some(i + 1),
+        None => None,
+    }
 }
